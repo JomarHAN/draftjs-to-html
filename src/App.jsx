@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import DraftTest from "./Draft-Test";
+import RawDraft from "./RawDraft";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <DraftTest />
+      {/* <RawDraft /> */}
     </div>
   );
 }
